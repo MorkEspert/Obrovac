@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "383707324281",
+    "firebase_url": "https://obrovac-24e61-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "obrovac-24e61",
+    "storage_bucket": "obrovac-24e61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383707324281:android:9dfc8533487551181999a8",
+        "android_client_info": {
+          "package_name": "com.projekt.obrovac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPa12b7g7qDHteVAq3lKH3ym-h87WMBx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

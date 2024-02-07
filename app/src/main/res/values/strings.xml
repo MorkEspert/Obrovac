@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Obrovac</string>
+    <string name="unesi_ime_korisnika">Unesi ime korisnika</string>
+    <string name="unesi_prezime_korisnika">Unesi prezime korisnika</string>
+    <string name="unesi_oib_korisnika">Unesi OIB korisnika</string>
+    <string name="unesi_datum_ro_enja_korisnika">Unesi datum rođenja korisnika</string>
+    <string name="unesi">unesi</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/brRacuna"
+        android:hint="Unesi broj računa"
+        app:layout_constraintEnd_toStartOf="@id/Unesi2"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/brRacuna"
+        android:hint="Unesi stanje računa"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toStartOf="@id/Unesi2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/stanje"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/stanje"
+        android:hint="Unesi korisnika"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toStartOf="@id/Unesi2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/korisnik.."/>
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/korisnik.."
+        android:hint="Unesi datum otvaranja računa"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toStartOf="@id/Unesi2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/datOtvaranja"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Unesi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="unesi"
+        app:layout_constraintBottom_toBottomOf="@+id/datOtvaranja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/brRacuna"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/RV2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/datOtvaranja"
+        android:layout_margin="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
